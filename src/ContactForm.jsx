@@ -118,8 +118,8 @@ function ContactForm() {
           Contact Us
         </h1>
         {/* Name */}
-        <div className="flex mb-6">
-        <div className="w-1/2 pr-2 flex flex-col">
+        <div className="flex flex-col lg:flex-row mb-6">
+        <div className="w-full lg:w-1/2 mb-4 lg:mb-0 pr-2 flex flex-col">
           <label
             htmlFor="name"
             className="block text-gray-700 font-medium mb-1"
@@ -152,7 +152,7 @@ function ContactForm() {
             </p>
           )}
           </div>
-          <div className="w-1/2 pl-2 flex flex-col">
+        <div className="w-full lg:w-1/2  pr-2 flex flex-col">
           <label
             htmlFor="lastName"
             className="block text-gray-700 font-medium mb-1"
